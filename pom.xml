@@ -37,20 +37,20 @@
 				<version>2.22.1</version>
 			</plugin>
 			<plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>3.0.0</version>
-        <executions>
-            <execution>
-                <goals>
-                    <goal>java</goal>
-                </goals>
-            </execution>
-        </executions>
-        <configuration>
-            <mainClass>com.emilio.App</mainClass>
-        </configuration>
-    </plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.0.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>answer1.Application</mainClass>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
