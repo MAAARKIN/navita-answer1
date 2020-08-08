@@ -9,9 +9,9 @@
 to run this project we will use a embbeded maven runner to execute a Application.java class.
 
 ```
-git clone answer1
+git clone https://github.com/MAAARKIN/navita-answer1.git
 
-cd answer1
+cd navita-answer1
 
 #windows setup
 .\mvnw.cmd exec:java -Dexec.mainClass="answer1.Application" -Dexec.args="355"
